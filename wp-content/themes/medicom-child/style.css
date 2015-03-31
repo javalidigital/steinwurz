@@ -1,0 +1,24 @@
+/*
+Theme Name: Medicom Theme Child
+Theme URI: http://www.bliccathemes.com/medicom
+Description: Medicom Child Theme
+Author: Blicca Theme 
+Author URI: http://themeforest.net/user/bliccathemes
+Template: medicom
+Tags: blue, white, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post, translation-ready
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Version: 2.0.1
+*/
+
+@import url("../medicom/css/bootstrap.min.css");
+@import url("../medicom/css/flexslider.css");
+@import url("../medicom/css/font-awesome.min.css");
+@import url("../medicom/css/prettyPhoto.css");
+@import url("../medicom/css/main.css");
+
+
+
+/*
+Start adding your own custom CSS rules.
+*/
