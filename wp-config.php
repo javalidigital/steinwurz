@@ -16,13 +16,13 @@
 
 // ** Configurações do MySQL - Você pode pegar essas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define('DB_NAME', 'instituto');
+define('DB_NAME', 'steinwurz');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'steinwurz');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', 'usbw');
+define('DB_PASSWORD', 'steinwurz15');
 
 /** nome do host do MySQL */
 define('DB_HOST', 'localhost');
