@@ -994,7 +994,7 @@ final class _WP_Editors {
 			'Keyboard Shortcuts' => __( 'Keyboard Shortcuts' ),
 			'Toolbar Toggle' => __( 'Toolbar Toggle' ),
 			'Insert Read More tag' => __( 'Insert Read More tag' ),
-			'Read more...' => __( 'Read more...' ), // Title on the placeholder inside the editor
+			'Read more...' => __( 'LEIA MAIS...' ), // Title on the placeholder inside the editor
 			'Distraction-free writing mode' => __( 'Distraction-free writing mode' ),
 			'No alignment' => __( 'No alignment' ), // Tooltip for the 'alignnone' button in the image toolbar
 			'Remove' => __( 'Remove' ), // Tooltip for the 'remove' button in the image toolbar

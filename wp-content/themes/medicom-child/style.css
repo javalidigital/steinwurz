@@ -22,3 +22,5 @@ Version: 2.0.1
 /*
 Start adding your own custom CSS rules.
 */
+
+footer .col-md-3 {width: 50%;}
