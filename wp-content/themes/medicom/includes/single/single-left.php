@@ -35,7 +35,7 @@
 							</div>
 							<div class="blog-content">
 									<h4 class="blog-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
-									<p class="blog-meta"><?php echo __('By', 'medicom');?>: <?php the_author_posts_link(); ?> | <?php echo __('Tags', 'medicom');?>: <?php the_tags( '', ', ', $after ); ?> | <?php echo __('Comments', 'medicom');?>: <a href="<?php comments_link(); ?>">
+									<p class="blog-meta"><?php echo __('by', 'medicom');?>: <?php the_author_posts_link(); ?> | <?php echo __('Tags', 'medicom');?>: <?php the_tags( '', ', ', $after ); ?> | <?php echo __('Comentarios', 'medicom');?>: <a href="<?php comments_link(); ?>">
 					<?php comments_number( __('0', 'medicom'), __('1', 'medicom'), __('%', 'medicom') ); ?></a> | <?php the_time(' F jS, Y') ?></p>
 									<?php the_content(); ?>
 							</div>

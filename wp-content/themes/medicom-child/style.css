@@ -22,5 +22,50 @@ Version: 2.0.1
 /*
 Start adding your own custom CSS rules.
 */
+.link-repo ul {list-style: none;margin: 0px; padding: 0px;}
+.link-repo ul li a{font-size: 30px; text-align: center; font-size: 20px;
+  font-weight: 500;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 6px 20px;
+  line-height: 1.7em;
+  background: transparent;
+  border: 2px solid;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  position: relative;}
+.fa-external-link:before {font-size: 25px;}
+#slider-home-bg1 img, #slider-home-bg2 img, #slider-home-bg3 img{margin-top: -125px!important; max-height: 1150px!important;transition: 3s; }
+#slider-home-bg1 {background-image: url(http://steinwurz.javalidigital.com.br/wp-content/uploads/2015/05/stein-slider1.jpg);  background-size: 100% 130%;}
+#slider-home-bg2 {background-image: url(http://steinwurz.javalidigital.com.br/wp-content/uploads/2015/05/steinwurz-slider2.jpg);  background-size: 100% 100%;}
+#slider-home-bg3 {background-image: url(http://steinwurz.javalidigital.com.br/wp-content/uploads/2015/05/steinwurz-slider3.jpg);  background-size: 100% 130%;}
+footer .col-md-3 {width: 50%; float: left;}
+footer h4 span {color:#6C6C6C;}
 
-footer .col-md-3 {width: 50%;}
+h2,h3,h4,h5,h6, a{color:#6C6C6C; font-weight: bold;}
+.blog-style-3 .blog-title, .blog-style-3 .blog-item .blog-title a {color:#6C6C6C;}
+.latest-post-slider h4.blog-title a {color:#6C6C6C;}
+.b_inherit, .blog-style-3 .blog-date, .b_asset{background-color:#6C6C6C;}
+.entry-title {color:#6C6C6C!important; font-weight: normal;}
+
+.blog-style-2 .blog-title, .blog-style-2 .blog-item .blog-title a {font-size: 30px;}
+.blog-wrapper .blog-content p {font-size: 20px;}
+.blog-wrapper .blog-content .blog-meta {font-size: 16px;}
+h2.tablepress-table-name {color:#6C6C6C!important;}
+
+.vc_btn-green, a.vc_btn-green, button.vc_btn-green {background-color:#00A99D!important;}
+
+@media (max-width: 979px) and (min-width: 768px) {
+.header-6 .navbar-nav {
+  background-color: rgba(000, 000, 000, 0.77451);
+  }
+}
+@media (max-width: 767px) { 
+  .header-6 .navbar-nav {
+  background-color: rgba(000, 000, 000, 0.77451);
+  }
+}

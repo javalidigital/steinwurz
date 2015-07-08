@@ -36,7 +36,7 @@
 							<div class="blog-content">
 								   <div class="blog-date"><span class="day"><?php the_time('j')?></span><span class="monthyear"><?php the_time('M, Y')?></span><div class="comment-count"><a href="<?php comments_link(); ?>"><i class="fa fa-comments"></i> <?php comments_number( __('0', 'medicom'), __('1', 'medicom'), __('%', 'medicom') ); ?></a></div></div>
 									<h4 class="blog-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
-									<p class="blog-meta"><?php echo __('By', 'medicom');?>: <?php the_author_posts_link(); ?> | <?php echo __('Tags', 'medicom');?>: <?php the_tags( '', ', ', $after ); ?></p>
+									<p class="blog-meta"><?php echo __('Autor', 'medicom');?>: <?php the_author_posts_link(); ?> | <?php echo __('Tags', 'medicom');?>: <?php the_tags( '', ', ', $after ); ?></p>
 									<p class="blog-intro"><?php echo get_the_excerpt(); ?><br><span class="buton b_inherit buton-2 buton-mini"><a href="<?php the_permalink(); ?>"><?php echo __('LEIA MAIS', 'medicom');?></a></span></p>
 							</div>
 						</article>

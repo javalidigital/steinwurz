@@ -42,7 +42,7 @@
 							</div>
 							<div class="blog-content">
 							<h4 class="blog-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
-							<p class="blog-meta"><?php echo __('By', 'medicom');?>: <?php the_author_posts_link(); ?> | <?php echo __('Tags', 'medicom');?>: <?php the_tags( '', ', ', $after ); ?> | <?php echo __('Comments', 'medicom');?>: <a href="<?php comments_link(); ?>">
+							<p class="blog-meta"><?php echo __('Autor', 'medicom');?>: <?php the_author_posts_link(); ?> | <?php echo __('Tags', 'medicom');?>: <?php the_tags( '', ', ', $after ); ?> | <?php echo __('Comentarios', 'medicom');?>: <a href="<?php comments_link(); ?>">
 					<?php comments_number( __('0', 'medicom'), __('1', 'medicom'), __('%', 'medicom') ); ?></a></p>
 							<p><?php if ($item_count % 2 == 1 ) { echo wp_trim_words( get_the_content(), 39 ); $item_count++; } else {  echo wp_trim_words( get_the_content(), 70 ); $item_count++; } ?></p>
 							<span class="buton b_inherit buton-2 buton-mini"><a href="<?php the_permalink(); ?>"><?php echo __('LEIA MAIS', 'medicom');?></a></span>

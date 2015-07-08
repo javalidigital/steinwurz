@@ -979,7 +979,7 @@ function medicom_alter_comment_form_fields(){
     $aria_req = ( $req ? " aria-required='true'" : '' );
     $fields =  array(
         'author' => '<div class="col-md-4 form-group">'  .
-                    '<input id="author" class="required form-control" name="author" type="text" placeholder="Name" value="' . esc_attr( $commenter['comment_author'] ) . '"' . $aria_req . ' />'.'</div>',
+                    '<input id="author" class="required form-control" name="author" type="text" placeholder="Nome" value="' . esc_attr( $commenter['comment_author'] ) . '"' . $aria_req . ' />'.'</div>',
         'email'  => '<div class="col-md-4 form-group">' .
                     '<input id="email" class="required form-control" name="email" type="text" placeholder="Email" value="' . esc_attr(  $commenter['comment_author_email'] ) . '"' . $aria_req . ' /></div>',
         'url'    => '<div class="col-md-4 form-group">' .
@@ -994,8 +994,8 @@ function medicom_defaults_comment_form($defaults) {
 $defaults['comment_field'] = '<div class="clearfix"></div><div class="col-md-12 form-group"><textarea class="required form-control" rows="11" id="comment" name="comment" aria-required="true"></textarea></div>';
 $defaults['comment_notes_after'] = "";
 $defaults['comment_notes_before'] = "";
-$defaults['label_submit'] = __('SUBMIT', 'medicom');
-$defaults['title_reply'] = __('Leave a <span>Reply</span>', 'medicom');
+$defaults['label_submit'] = __('ENVIAR', 'medicom');
+$defaults['title_reply'] = __('Deixe um <span>Comentário</span>', 'medicom');
     return $defaults;
 }
 add_filter('comment_form_defaults','medicom_defaults_comment_form');

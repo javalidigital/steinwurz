@@ -11,7 +11,7 @@ if(isset($theme_options['blog_header'])) { /* dont */ }
 <section class="medicom-waypoint">
 	<div class="caption">
           <h1><?php if ( is_search() ) : // Only display for Search?>
-		        <?php printf( __( 'Search Results for: %s', 'medicom' ), '<span>' . get_search_query() . '</span>' ); ?> 
+		        <?php printf( __( 'Resultados de busca para: %s', 'medicom' ), '<span>' . get_search_query() . '</span>' ); ?> 
 			    <?php else: echo $theme_options['blog_header']; ?><?php endif; ?></h1>
           <p><?php echo $theme_options['blog_caption']; ?></p>
       </div>
